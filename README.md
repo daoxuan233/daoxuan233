@@ -1,16 +1,26 @@
-### Hi there 👋
+## Hey, daoxuan233 here! :wave:
 
-<!--
-**daoxuan233/daoxuan233** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **daoxuan233**.
 
-Here are some ideas to get you started:
+总访客次数:<br>
+Visitor Count:<br>
+<img src="https://profile-counter.glitch.me/daoxuan233/count.svg"/>
+<br></br>
+<table style="width:100%;margin-top:30px" style="border:none">
+  <tr style="border:none">
+    <th style="border:none"><a href="https://github.com/daoxuan233">
+    <img  src="https://github-readme-stats-ouuan.vercel.app/api?username=daoxuan233&theme=ligit&show_icons=true">
+    </a></th>
+    <th style="border:none"><a href="https://github.com/daoxuan233">
+    <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=daoxuan233&layout=compact&langs_count=6&hide=smali" />
+    </a></th>
+  </tr>
+</table>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!--代表仓库-->    
+|我的开源|代表仓库
+|-|-
+项目三，惠农商城练习:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=daoxuan233&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/Stardaoxuan233)|前后端未分开的练手项目，项目二:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=bank_manager&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/bank_manager)
+
+  
+<hr>
