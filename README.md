@@ -20,7 +20,7 @@ Visitor Count:<br>
 <!--代表仓库-->    
 |我的开源|代表仓库
 |-|-
-惠农商城练习:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=daoxuan233&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/Stardaoxuan233)|前后端未分开的练手项目，银行后台管理系统:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=bank_manager&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/bank_manager)
+惠农商城练习:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=shopping_mall&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/shopping_mall)|前后端未分开的练手项目，银行后台管理系统:<br>[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=bank_manager&show_icons=true&title_color=fff&icon_color=ffff00&text_color=00ffff&bg_color=000)](https://github.com/daoxuan233/bank_manager)
 
   
 <hr>
