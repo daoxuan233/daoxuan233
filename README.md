@@ -26,3 +26,7 @@ Visitor Count:<br>
 <hr>
 My Github Stats Snake
 <img src="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake.gif"/>
+
+---
+
+![](./profile-3d-contrib/profile-green-animate.svg)
