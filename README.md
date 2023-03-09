@@ -1,4 +1,4 @@
-## Hey, daoxuan233 here! :wave: 我很帅
+## Hey, daoxuan233 here! :wave: 
 
 I'm **daoxuan233**.
 
