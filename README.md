@@ -19,8 +19,8 @@
 <!-- 技能标签云 -->
 <div align="center" style="margin: 20px 0;">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1b27" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1a1b27" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=1a1b27" alt="React"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1a1b27" alt="Java"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=1a1b27" alt="Go"/>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white&labelColor=1a1b27" alt="Vue.js"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1a1b27" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1b27" alt="Python"/>
@@ -31,11 +31,11 @@
 ## 📊 GitHub 数据洞察
 
 <div align="center">
-  
+
   <!-- 主要统计卡片 -->
   <img height="200" src="https://github-readme-stats-ouuan.vercel.app/api?username=daoxuan233&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=6C63FF&icon_color=FF6B6B&text_color=ffffff&border_radius=15"/>
   <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daoxuan233&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&langs_count=8&hide=smali&border_radius=15"/>
-  
+
 </div>
 
 <!-- 连击统计 -->
@@ -53,7 +53,7 @@
 ## 🌟 精选项目展示
 
 <div align="center">
-  
+
   <!-- 项目卡片网格 -->
   <table>
     <tr>
@@ -83,14 +83,14 @@
       </td>
     </tr>
   </table>
-  
+
   <!-- 更多项目按钮 -->
   <div style="margin-top: 20px;">
     <a href="https://github.com/daoxuan233?tab=repositories">
       <img src="https://img.shields.io/badge/🔍%20Explore%20More%20Projects-6C63FF?style=for-the-badge&logoColor=white&labelColor=1a1b27" alt="Explore More"/>
     </a>
   </div>
-  
+
 </div>
 
 ---
@@ -100,13 +100,13 @@
 <div align="center">
   <h3>📈 代码贡献动态可视化</h3>
   <p><em>看看我的代码如何"吃掉"整个贡献图！</em></p>
-  
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake.svg">
     <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake.svg" width="100%"/>
   </picture>
-  
+
   <div style="margin-top: 15px;">
     <img src="https://img.shields.io/badge/🎮%20Interactive%20Animation-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="Interactive"/>
     <img src="https://img.shields.io/badge/🌈%20Dynamic%20Colors-4ECDC4?style=for-the-badge&labelColor=1a1b27" alt="Dynamic"/>
@@ -121,9 +121,9 @@
 <div align="center">
   <h3>🌟 立体化数据可视化</h3>
   <p><em>从三维角度展示我的编程足迹</em></p>
-  
+
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" width="100%" style="border-radius: 15px;"/>
-  
+
   <div style="margin-top: 15px;">
     <img src="https://img.shields.io/badge/📊%203D%20Visualization-6C63FF?style=for-the-badge&labelColor=1a1b27" alt="3D Viz"/>
     <img src="https://img.shields.io/badge/🎯%20Data%20Driven-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="Data Driven"/>
@@ -137,7 +137,7 @@
 <div align="center">
   <h3>🤝 让我们一起创造精彩！</h3>
   <p><em>随时欢迎技术交流与合作机会</em></p>
-  
+
   <!-- 联系方式卡片 -->
   <table>
     <tr>
@@ -153,15 +153,15 @@
       </td>
     </tr>
   </table>
-  
+
   <br/>
-  
+
   <!-- 访问统计 -->
   <div style="margin: 20px 0;">
     <img src="https://komarev.com/ghpvc/?username=daoxuan233&color=6C63FF&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
     <img src="https://img.shields.io/github/followers/daoxuan233?style=for-the-badge&color=4ECDC4&labelColor=1a1b27&logo=github" alt="Followers"/>
   </div>
-  
+
 </div>
 
 ---
@@ -169,19 +169,19 @@
 <div align="center">
   <h3>💝 感谢您的访问！</h3>
   <p><em>如果您觉得我的项目有趣，欢迎给个 ⭐ Star！</em></p>
-  
+
   <!-- 动态打字效果 -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+🎉;Let's+build+something+amazing+together!+🚀;Open+to+collaboration+and+new+opportunities!+💡" alt="Typing SVG" />
-  
+
   <br/><br/>
-  
+
   <!-- 底部装饰 -->
   <div>
     <img src="https://img.shields.io/badge/⭐%20Star%20if%20you%20like-FFE66D?style=for-the-badge&labelColor=1a1b27" alt="Star"/>
     <img src="https://img.shields.io/badge/🔔%20Follow%20for%20updates-4ECDC4?style=for-the-badge&labelColor=1a1b27" alt="Follow"/>
     <img src="https://img.shields.io/badge/💬%20Let's%20connect-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="Connect"/>
   </div>
-  
+
 </div>
 
 ---
