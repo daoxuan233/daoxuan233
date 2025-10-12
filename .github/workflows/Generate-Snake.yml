@@ -2,28 +2,50 @@
 
 name: Generate Snake
 
+# 控制工作流何时运行
 on:
+  # 每天 UTC 时间 00:00 运行
   schedule:
     - cron: "0 0 * * *"
+  
+  # 允许手动触发工作流
   workflow_dispatch:
+  
+  # 在推送到主分支时运行
+  push:
+    branches: [ main ]
+
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
+    
     steps:
+      # 检出代码
       - name: Checkout
-        uses: actions/checkout@v2.3.4
-      
+        uses: actions/checkout@v4
+        
+      # 生成 Snake 动画
       - name: Generate Snake
-        uses: Platane/snk@master
-        id: snake-gif
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./assets/github-contribution-grid-snake.gif
-          svg_out_path: ./assets/github-contribution-grid-snake.svg
-
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/github-contribution-grid-snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 提交并推送更改
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
