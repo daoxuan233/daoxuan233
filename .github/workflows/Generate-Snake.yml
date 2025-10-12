@@ -2,28 +2,83 @@
 
 name: Generate Snake
 
+# 控制工作流何时运行
 on:
+  # 每天 UTC 时间 00:00 运行
   schedule:
     - cron: "0 0 * * *"
+  
+  # 允许手动触发工作流
   workflow_dispatch:
+  
+  # 在推送到主分支时运行
+  push:
+    branches: [ main ]
+
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 15
+    
     steps:
+      # 检出代码
       - name: Checkout
-        uses: actions/checkout@v2.3.4
-      
-      - name: Generate Snake
-        uses: Platane/snk@master
-        id: snake-gif
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+        
+      # 生成 Snake SVG 动画
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./assets/github-contribution-grid-snake.gif
-          svg_out_path: ./assets/github-contribution-grid-snake.svg
-
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 生成 Snake GIF 动画
+      - name: Generate Snake GIF
+        uses: Platane/snk@v3
         with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 验证生成的文件
+      - name: Verify generated files
+        run: |
+          echo "Checking generated files..."
+          ls -la assets/
+          if [ -f "assets/github-contribution-grid-snake.svg" ]; then
+            echo "✅ Light mode SVG generated successfully"
+          else
+            echo "❌ Light mode SVG not found"
+          fi
+          if [ -f "assets/github-contribution-grid-snake-dark.svg" ]; then
+            echo "✅ Dark mode SVG generated successfully"
+          else
+            echo "❌ Dark mode SVG not found"
+          fi
+          if [ -f "assets/github-contribution-grid-snake.gif" ]; then
+            echo "✅ GIF generated successfully"
+          else
+            echo "❌ GIF not found"
+          fi
+          
+      # 提交并推送更改
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+          force: true
