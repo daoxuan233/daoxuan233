@@ -60,7 +60,6 @@
       <td width="50%" align="center">
         <div>
           <h3>🛒 惠农商城练习</h3>
-          <p><em>现代化电商平台解决方案</em></p>
           <a href="https://github.com/daoxuan233/shopping_mall">
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=shopping_mall&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=FF6B6B&border_radius=15" alt="Shopping Mall Project" width="100%"/>
           </a>
@@ -72,13 +71,12 @@
       <td width="50%" align="center">
         <div>
           <h3>🚀 FutureBack_end</h3>
-          <p><em>高性能后端服务架构</em></p>
           <a href="https://github.com/Futureluxe/FutureBack_end">
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=Futureluxe&repo=FutureBack_end&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=4ECDC4&border_radius=15" alt="FutureBack_end Project" width="100%"/>
           </a>
           <br/>
           <img src="https://img.shields.io/badge/Tech-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
-          <img src="https://img.shields.io/badge/Tech-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+          <img src="https://img.shields.io/badge/Tech-Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot"/>
         </div>
       </td>
     </tr>
@@ -142,8 +140,8 @@
   <table>
     <tr>
       <td align="center" width="50%">
-        <a href="mailto:daoxuan233@outlook.com">
-          <img src="https://img.shields.io/badge/📧%20Email-daoxuan233@outlook.com-FF6B6B?style=for-the-badge&logo=microsoft-outlook&logoColor=white&labelColor=1a1b27" alt="Email"/>
+        <a href="mailto:daoxuan5117@163.com">
+          <img src="https://img.shields.io/badge/📧%20Email-daoxuan5117@163.com-FF6B6B?style=for-the-badge&logo=microsoft-outlook&logoColor=white&labelColor=1a1b27" alt="Email"/>
         </a>
       </td>
       <td align="center" width="50%">
