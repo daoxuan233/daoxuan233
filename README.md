@@ -9,7 +9,7 @@
 
 <!-- 统计徽章 -->
 <p align="center">
-  <img src="https://profile-counter.glitch.me/daoxuan233/count.svg" alt="访客计数"/>
+  <img src="https://komarev.com/ghpvc/?username=daoxuan233&label=Profile%20views&color=0e75b6&style=flat" alt="访客计数"/>
   <img src="https://img.shields.io/github/followers/daoxuan233?style=for-the-badge&logo=github&logoColor=white&color=002FA7" alt="GitHub followers"/>
   <img src="https://img.shields.io/github/stars/daoxuan233?style=for-the-badge&logo=github&logoColor=white&color=517B4D" alt="GitHub stars"/>
 </p>
