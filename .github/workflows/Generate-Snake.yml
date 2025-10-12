@@ -24,16 +24,18 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
       # 检出代码
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
         
       # 生成 Snake 动画
       - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -42,6 +44,27 @@ jobs:
             assets/github-contribution-grid-snake.gif
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 验证生成的文件
+      - name: Verify generated files
+        run: |
+          echo "Checking generated files..."
+          ls -la assets/
+          if [ -f "assets/github-contribution-grid-snake.svg" ]; then
+            echo "✅ Light mode SVG generated successfully"
+          else
+            echo "❌ Light mode SVG not found"
+          fi
+          if [ -f "assets/github-contribution-grid-snake-dark.svg" ]; then
+            echo "✅ Dark mode SVG generated successfully"
+          else
+            echo "❌ Dark mode SVG not found"
+          fi
+          if [ -f "assets/github-contribution-grid-snake.gif" ]; then
+            echo "✅ GIF generated successfully"
+          else
+            echo "❌ GIF not found"
+          fi
           
       # 提交并推送更改
       - name: Push changes
