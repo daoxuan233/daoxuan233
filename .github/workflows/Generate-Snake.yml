@@ -33,14 +33,23 @@ jobs:
         with:
           fetch-depth: 0
         
-      # 生成 Snake 动画
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      # 生成 Snake SVG 动画
+      - name: Generate Snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # 生成 Snake GIF 动画
+      - name: Generate Snake GIF
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
             assets/github-contribution-grid-snake.gif
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
