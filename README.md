@@ -64,8 +64,8 @@
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=LogosX&bg_color=18181B&title_color=3B82F6&text_color=FAFAFA&icon_color=3B82F6&hide_border=true" alt="LogosX Project" width="100%"/>
           </a>
           <br/>
-          <img src="https://img.shields.io/badge/Tech-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js"/>
-          <img src="https://img.shields.io/badge/Tech-Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot"/>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+          <img src="https://img.shields.io/badge/AI-FF6B6B?style=flat-square&logo=openai&logoColor=white" alt="Artificial Intelligence"/>
         </div>
       </td>
       <td width="50%" align="center">
