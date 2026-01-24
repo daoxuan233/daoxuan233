@@ -61,7 +61,7 @@
         <div>
           <h3><img src="./assets/logosx-logo.svg" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">LogosX</h3>
           <a href="https://github.com/daoxuan233/LogosX">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=LogosX&&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=4ECDC4&border_radius=15hide_border=true" alt="LogosX Project" width="100%"/>
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=LogosX&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=4ECDC4&border_radius=15" alt="FutureBack_end Project" width="100%"/>
           </a>
           <br/>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
