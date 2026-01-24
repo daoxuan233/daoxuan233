@@ -93,27 +93,6 @@
 
 ---
 
-## 🐍 GitHub 活动轨迹
-
-<div align="center">
-  <h3>📈 代码贡献动态可视化</h3>
-  <p><em>看看我的代码如何"吃掉"整个贡献图！</em></p>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake.svg">
-    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/daoxuan233/daoxuan233/main/assets/github-contribution-grid-snake.svg" width="100%"/>
-  </picture>
-
-  <div style="margin-top: 15px;">
-    <img src="https://img.shields.io/badge/🎮%20Interactive%20Animation-FF6B6B?style=for-the-badge&labelColor=1a1b27" alt="Interactive"/>
-    <img src="https://img.shields.io/badge/🌈%20Dynamic%20Colors-4ECDC4?style=for-the-badge&labelColor=1a1b27" alt="Dynamic"/>
-    <img src="https://img.shields.io/badge/⚡%20Real%20Time-FFE66D?style=for-the-badge&labelColor=1a1b27" alt="Real Time"/>
-  </div>
-</div>
-
----
-
 ## 🎨 3D 贡献立体图
 
 <div align="center">
