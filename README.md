@@ -60,7 +60,7 @@
       <td width="50%" align="center">
         <div>
           <h3><img src="./assets/logosx-logo.svg" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">LogosX</h3>
-          <a href="https://github.com/daoxuan233/LogosX">
+          <a href="">
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=LogosX&bg_color=18181B&title_color=3B82F6&text_color=FAFAFA&icon_color=3B82F6&hide_border=true" alt="LogosX Project" width="100%"/>
           </a>
           <br/>
