@@ -59,15 +59,16 @@
     <tr>
       <td width="50%" align="center">
         <div>
-          <h3><img src="./assets/logosx-logo.svg" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">LogosX</h3>
-          <a href="https://github.com/daoxuan233/LogosX">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=LogosX&bg_color=18181B&title_color=3B82F6&text_color=FAFAFA&icon_color=3B82F6&hide_border=true" alt="LogosX Project" width="100%"/>
+          <h3>🛒 惠农商城练习</h3>
+          <a href="https://github.com/daoxuan233/shopping_mall">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=shopping_mall&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=FF6B6B&border_radius=15" alt="Shopping Mall Project" width="100%"/>
           </a>
           <br/>
-          <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js"/>
-          <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot"/>
+          <img src="https://img.shields.io/badge/Tech-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js"/>
+          <img src="https://img.shields.io/badge/Tech-Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot"/>
         </div>
       </td>
+      <td width="50%" align="center">
         <div>
           <h3>🚀 FutureBack_end</h3>
           <a href="https://github.com/Futureluxe/FutureBack_end">
