@@ -33,7 +33,7 @@
 <div align="center">
 
   <!-- 主要统计卡片 -->
-  <img height="200" src="https://github-readme-stats-ouuan.vercel.app/api?username=daoxuan233&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=6C63FF&icon_color=FF6B6B&text_color=ffffff&border_radius=15"/>
+  <img height="200" src="https://github-readme-stats.vercel.app/api?username=daoxuan233&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=6C63FF&icon_color=FF6B6B&text_color=ffffff&border_radius=15"/>
   <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daoxuan233&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&langs_count=8&hide=smali&border_radius=15"/>
 
 </div>
@@ -70,12 +70,12 @@
       </td>
       <td width="50%" align="center">
         <div>
-          <h3>🚀 FutureBack_end</h3>
-          <a href="https://github.com/Futureluxe/FutureBack_end">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Futureluxe&repo=FutureBack_end&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=4ECDC4&border_radius=15" alt="FutureBack_end Project" width="100%"/>
+          <h3><img src="./assets/DaoX_C7-Center_Logo.svg" width="30" height="30" style="vertical-align: middle; margin-right: 8px;">daox-online-edu-platform</h3>
+          <a href="https://github.com/daoxuan233/daox-online-edu-platform">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=daoxuan233&repo=daox-online-edu-platform&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=6C63FF&text_color=ffffff&icon_color=4ECDC4&border_radius=15" alt="daox-online-edu-platform Project" width="100%"/>
           </a>
           <br/>
-          <img src="https://img.shields.io/badge/Tech-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
+          <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
           <img src="https://img.shields.io/badge/Tech-Spring%20Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot"/>
         </div>
       </td>
